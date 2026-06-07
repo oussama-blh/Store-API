@@ -1,0 +1,921 @@
+{
+  "products": [
+    {
+      "id": "lp-01",
+      "slug": "razer-blade-16-rtx5090",
+      "name": "Razer Blade 16 — RTX 5090",
+      "brand": "Razer",
+      "category": "laptops",
+      "subCategory": "Gaming Laptops",
+      "price": 4299,
+      "discount": 8,
+      "rating": 4.9,
+      "reviewCount": 312,
+      "stock": 14,
+      "tagline": "Desktop-class power in a CNC aluminium chassis.",
+      "description": "The Blade 16 fuses a 16\" dual-mode Mini-LED display with an RTX 5090 Laptop GPU and Intel Core Ultra 9 for uncompromising 4K gaming and creator workloads. Vapor-chamber cooling keeps it whisper-quiet under load.",
+      "cpu": "Intel Core Ultra 9 285HX",
+      "gpu": "RTX 5090 Laptop",
+      "ram": "32GB DDR5",
+      "storage": "2TB NVMe",
+      "specs": [
+        {
+          "label": "CPU",
+          "value": "Intel Core Ultra 9 285HX"
+        },
+        {
+          "label": "GPU",
+          "value": "NVIDIA RTX 5090 Laptop 24GB"
+        },
+        {
+          "label": "RAM",
+          "value": "32GB DDR5-5600"
+        },
+        {
+          "label": "Storage",
+          "value": "2TB PCIe Gen4 NVMe"
+        },
+        {
+          "label": "Display",
+          "value": "16\" Dual-Mode Mini-LED 240Hz"
+        },
+        {
+          "label": "Weight",
+          "value": "2.1 kg"
+        }
+      ],
+      "images": [
+        "#0bd45f",
+        "#22d3ee",
+        "#a3f523"
+      ],
+      "accent": "#0bd45f",
+      "badges": [
+        "Best Seller",
+        "-8%"
+      ],
+      "featured": true,
+      "bestSeller": true
+    },
+    {
+      "id": "lp-02",
+      "slug": "asus-rog-zephyrus-g14",
+      "name": "ASUS ROG Zephyrus G14",
+      "brand": "ASUS",
+      "category": "laptops",
+      "subCategory": "Gaming Laptops",
+      "price": 2199,
+      "discount": 0,
+      "rating": 4.7,
+      "reviewCount": 198,
+      "stock": 22,
+      "tagline": "14 inches of OLED, all-day battery, serious frames.",
+      "description": "The most portable powerhouse in its class. A stunning 3K OLED 120Hz panel, Ryzen 9, and RTX 5070 in a 1.5kg magnesium-alloy body with AniMe Matrix lid.",
+      "cpu": "AMD Ryzen 9 8945HS",
+      "gpu": "RTX 5070 Laptop",
+      "ram": "32GB LPDDR5X",
+      "storage": "1TB NVMe",
+      "specs": [
+        {
+          "label": "CPU",
+          "value": "AMD Ryzen 9 8945HS"
+        },
+        {
+          "label": "GPU",
+          "value": "NVIDIA RTX 5070 Laptop"
+        },
+        {
+          "label": "RAM",
+          "value": "32GB LPDDR5X"
+        },
+        {
+          "label": "Storage",
+          "value": "1TB PCIe Gen4 NVMe"
+        },
+        {
+          "label": "Display",
+          "value": "14\" 3K OLED 120Hz"
+        },
+        {
+          "label": "Weight",
+          "value": "1.5 kg"
+        }
+      ],
+      "images": [
+        "#8b5cf6",
+        "#ff2e88",
+        "#22d3ee"
+      ],
+      "accent": "#8b5cf6",
+      "badges": [
+        "New"
+      ],
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "lp-03",
+      "slug": "apple-macbook-pro-16-m4-max",
+      "name": "MacBook Pro 16\" M4 Max",
+      "brand": "Apple",
+      "category": "laptops",
+      "subCategory": "Creator Laptops",
+      "price": 3899,
+      "discount": 5,
+      "rating": 4.9,
+      "reviewCount": 540,
+      "stock": 18,
+      "tagline": "The fastest Mac laptop ever. Built for pros.",
+      "description": "M4 Max with a 16-core CPU and 40-core GPU obliterates timelines and renders. A 16.2\" Liquid Retina XDR display and 24-hour battery make it the ultimate creator machine.",
+      "cpu": "Apple M4 Max",
+      "gpu": "40-core GPU",
+      "ram": "48GB Unified",
+      "storage": "1TB SSD",
+      "specs": [
+        {
+          "label": "Chip",
+          "value": "Apple M4 Max (16-core CPU)"
+        },
+        {
+          "label": "GPU",
+          "value": "40-core integrated"
+        },
+        {
+          "label": "Memory",
+          "value": "48GB Unified"
+        },
+        {
+          "label": "Storage",
+          "value": "1TB SSD"
+        },
+        {
+          "label": "Display",
+          "value": "16.2\" Liquid Retina XDR 120Hz"
+        },
+        {
+          "label": "Battery",
+          "value": "Up to 24 hours"
+        }
+      ],
+      "images": [
+        "#aeb6c6",
+        "#e7ebf3",
+        "#8b93a7"
+      ],
+      "accent": "#9fb4c9",
+      "badges": [
+        "Best Seller",
+        "-5%"
+      ],
+      "bestSeller": true
+    },
+    {
+      "id": "lp-04",
+      "slug": "alienware-m18-r2",
+      "name": "Alienware m18 R2",
+      "brand": "Alienware",
+      "category": "laptops",
+      "subCategory": "Gaming Laptops",
+      "price": 3499,
+      "discount": 12,
+      "rating": 4.6,
+      "reviewCount": 142,
+      "stock": 9,
+      "tagline": "An 18-inch desktop replacement that refuses to throttle.",
+      "description": "Cryo-tech quad-fan cooling lets the RTX 5080 and Core i9 run flat-out. AlienFX RGB lighting wraps the chassis for the full setup-piece presence.",
+      "cpu": "Intel Core i9-14900HX",
+      "gpu": "RTX 5080 Laptop",
+      "ram": "64GB DDR5",
+      "storage": "2TB NVMe",
+      "specs": [
+        {
+          "label": "CPU",
+          "value": "Intel Core i9-14900HX"
+        },
+        {
+          "label": "GPU",
+          "value": "NVIDIA RTX 5080 Laptop"
+        },
+        {
+          "label": "RAM",
+          "value": "64GB DDR5-5600"
+        },
+        {
+          "label": "Storage",
+          "value": "2TB RAID0 NVMe"
+        },
+        {
+          "label": "Display",
+          "value": "18\" QHD+ 165Hz"
+        },
+        {
+          "label": "Lighting",
+          "value": "AlienFX RGB"
+        }
+      ],
+      "images": [
+        "#22d3ee",
+        "#3b82f6",
+        "#8b5cf6"
+      ],
+      "accent": "#22d3ee",
+      "badges": [
+        "-12%"
+      ],
+      "newArrival": true
+    },
+    {
+      "id": "dk-01",
+      "slug": "techzone-vortex-rtx5090",
+      "name": "TechZone Vortex — RTX 5090 Build",
+      "brand": "TechZone",
+      "category": "desktops",
+      "subCategory": "Gaming Desktops",
+      "price": 4899,
+      "discount": 0,
+      "rating": 5,
+      "reviewCount": 88,
+      "stock": 7,
+      "tagline": "Our flagship hand-built rig. 4K/240 without compromise.",
+      "description": "A curated build pairing the RTX 5090 with a Ryzen 9 9950X3D on a custom water loop. Wired and cable-managed by our techs, stress-tested for 48 hours before it ships.",
+      "cpu": "Ryzen 9 9950X3D",
+      "gpu": "RTX 5090 32GB",
+      "ram": "64GB DDR5",
+      "storage": "4TB NVMe",
+      "specs": [
+        {
+          "label": "CPU",
+          "value": "AMD Ryzen 9 9950X3D"
+        },
+        {
+          "label": "GPU",
+          "value": "NVIDIA RTX 5090 32GB"
+        },
+        {
+          "label": "RAM",
+          "value": "64GB DDR5-6400 RGB"
+        },
+        {
+          "label": "Storage",
+          "value": "4TB PCIe Gen5 NVMe"
+        },
+        {
+          "label": "Cooling",
+          "value": "360mm Custom Water Loop"
+        },
+        {
+          "label": "PSU",
+          "value": "1200W 80+ Titanium"
+        }
+      ],
+      "images": [
+        "#a3f523",
+        "#0bd45f",
+        "#22d3ee"
+      ],
+      "accent": "#a3f523",
+      "badges": [
+        "Flagship"
+      ],
+      "featured": true,
+      "bestSeller": true
+    },
+    {
+      "id": "dk-02",
+      "slug": "nzxt-player-three-prime",
+      "name": "NZXT Player: Three Prime",
+      "brand": "NZXT",
+      "category": "desktops",
+      "subCategory": "Gaming Desktops",
+      "price": 2799,
+      "discount": 10,
+      "rating": 4.7,
+      "reviewCount": 164,
+      "stock": 12,
+      "tagline": "Clean lines, white build, RGB done tastefully.",
+      "description": "A showpiece in the H9 Flow with panoramic tempered glass. RTX 5080 and Ryzen 7 deliver effortless 1440p ultra at high refresh.",
+      "cpu": "Ryzen 7 9800X3D",
+      "gpu": "RTX 5080 16GB",
+      "ram": "32GB DDR5",
+      "storage": "2TB NVMe",
+      "specs": [
+        {
+          "label": "CPU",
+          "value": "AMD Ryzen 7 9800X3D"
+        },
+        {
+          "label": "GPU",
+          "value": "NVIDIA RTX 5080 16GB"
+        },
+        {
+          "label": "RAM",
+          "value": "32GB DDR5-6000"
+        },
+        {
+          "label": "Storage",
+          "value": "2TB Gen4 NVMe"
+        },
+        {
+          "label": "Case",
+          "value": "NZXT H9 Flow (White)"
+        },
+        {
+          "label": "Cooling",
+          "value": "360mm Kraken AIO"
+        }
+      ],
+      "images": [
+        "#e7ebf3",
+        "#aeb6c6",
+        "#ff2e88"
+      ],
+      "accent": "#ff2e88",
+      "badges": [
+        "-10%"
+      ],
+      "newArrival": true
+    },
+    {
+      "id": "cp-01",
+      "slug": "nvidia-rtx-5090-founders",
+      "name": "NVIDIA RTX 5090 Founders Edition",
+      "brand": "NVIDIA",
+      "category": "components",
+      "subCategory": "Graphics Cards",
+      "price": 1999,
+      "discount": 0,
+      "rating": 4.8,
+      "reviewCount": 421,
+      "stock": 5,
+      "tagline": "The new ceiling for consumer graphics.",
+      "description": "32GB GDDR7, Blackwell architecture, and DLSS 4 multi-frame generation. The dual-flow-through cooler is a feat of engineering in a 2-slot form factor.",
+      "gpu": "RTX 5090",
+      "specs": [
+        {
+          "label": "Memory",
+          "value": "32GB GDDR7"
+        },
+        {
+          "label": "Bus",
+          "value": "512-bit"
+        },
+        {
+          "label": "Boost Clock",
+          "value": "2.41 GHz"
+        },
+        {
+          "label": "TDP",
+          "value": "575W"
+        },
+        {
+          "label": "Outputs",
+          "value": "3× DP 2.1b, 1× HDMI 2.1b"
+        },
+        {
+          "label": "Slots",
+          "value": "2-slot FE"
+        }
+      ],
+      "images": [
+        "#0bd45f",
+        "#161a22",
+        "#a3f523"
+      ],
+      "accent": "#0bd45f",
+      "badges": [
+        "Hot",
+        "Low Stock"
+      ],
+      "featured": true
+    },
+    {
+      "id": "cp-02",
+      "slug": "amd-ryzen-9-9950x3d",
+      "name": "AMD Ryzen 9 9950X3D",
+      "brand": "AMD",
+      "category": "components",
+      "subCategory": "Processors",
+      "price": 699,
+      "discount": 6,
+      "rating": 4.9,
+      "reviewCount": 289,
+      "stock": 31,
+      "tagline": "16 cores, 3D V-Cache, gaming king.",
+      "description": "Second-gen 3D V-Cache stacks 128MB of L3 onto a 16-core Zen 5 die — the best gaming CPU you can buy, with content-creation muscle to match.",
+      "cpu": "Ryzen 9 9950X3D",
+      "specs": [
+        {
+          "label": "Cores / Threads",
+          "value": "16 / 32"
+        },
+        {
+          "label": "Boost Clock",
+          "value": "Up to 5.7 GHz"
+        },
+        {
+          "label": "Cache",
+          "value": "128MB L3 (3D V-Cache)"
+        },
+        {
+          "label": "TDP",
+          "value": "170W"
+        },
+        {
+          "label": "Socket",
+          "value": "AM5"
+        },
+        {
+          "label": "iGPU",
+          "value": "Radeon Graphics"
+        }
+      ],
+      "images": [
+        "#ff2e88",
+        "#8b5cf6",
+        "#22d3ee"
+      ],
+      "accent": "#ff2e88",
+      "badges": [
+        "-6%",
+        "Best Seller"
+      ],
+      "bestSeller": true
+    },
+    {
+      "id": "cp-03",
+      "slug": "corsair-dominator-ddr5-64gb",
+      "name": "Corsair Dominator Titanium 64GB DDR5",
+      "brand": "Corsair",
+      "category": "components",
+      "subCategory": "Memory",
+      "price": 329,
+      "discount": 0,
+      "rating": 4.6,
+      "reviewCount": 96,
+      "stock": 44,
+      "tagline": "CL30 speed wrapped in addressable RGB.",
+      "ram": "64GB DDR5-6400",
+      "description": "A 2×32GB DDR5-6400 CL30 kit with 12 Capellix RGB LEDs per stick and a machined-aluminium heat spreader. Tuned for Ryzen and Intel alike.",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "64GB (2×32GB)"
+        },
+        {
+          "label": "Speed",
+          "value": "DDR5-6400"
+        },
+        {
+          "label": "Latency",
+          "value": "CL30"
+        },
+        {
+          "label": "RGB",
+          "value": "12× Capellix per stick"
+        },
+        {
+          "label": "Voltage",
+          "value": "1.4V"
+        }
+      ],
+      "images": [
+        "#a3f523",
+        "#22d3ee",
+        "#ff2e88"
+      ],
+      "accent": "#22d3ee",
+      "badges": [
+        "RGB"
+      ],
+      "newArrival": true
+    },
+    {
+      "id": "ac-01",
+      "slug": "logitech-g-pro-x-superlight-2",
+      "name": "Logitech G PRO X Superlight 2",
+      "brand": "Logitech",
+      "category": "accessories",
+      "subCategory": "Mouse",
+      "price": 159,
+      "discount": 0,
+      "rating": 4.8,
+      "reviewCount": 1204,
+      "stock": 87,
+      "tagline": "60g of esports-grade precision.",
+      "description": "The mouse on more pro desks than any other. HERO 2 sensor at 32K DPI, LIGHTSPEED wireless, and a 95-hour battery in a 60-gram shell.",
+      "specs": [
+        {
+          "label": "Sensor",
+          "value": "HERO 2 (32K DPI)"
+        },
+        {
+          "label": "Weight",
+          "value": "60g"
+        },
+        {
+          "label": "Connectivity",
+          "value": "LIGHTSPEED Wireless"
+        },
+        {
+          "label": "Battery",
+          "value": "95 hours"
+        },
+        {
+          "label": "Switches",
+          "value": "LIGHTFORCE Hybrid"
+        }
+      ],
+      "images": [
+        "#161a22",
+        "#a3f523",
+        "#8b93a7"
+      ],
+      "accent": "#a3f523",
+      "badges": [
+        "Best Seller"
+      ],
+      "featured": true,
+      "bestSeller": true
+    },
+    {
+      "id": "ac-02",
+      "slug": "keychron-q1-he",
+      "name": "Keychron Q1 HE Magnetic",
+      "brand": "Keychron",
+      "category": "accessories",
+      "subCategory": "Keyboard",
+      "price": 219,
+      "discount": 9,
+      "rating": 4.7,
+      "reviewCount": 333,
+      "stock": 41,
+      "tagline": "Hall-effect rapid-trigger in a CNC aluminium deck.",
+      "description": "Adjustable actuation from 0.1mm, full QMK/VIA, gasket mount, and a south-facing per-key RGB. A premium board that doubles as a desk centrepiece.",
+      "specs": [
+        {
+          "label": "Switches",
+          "value": "Gateron Magnetic Nebula"
+        },
+        {
+          "label": "Actuation",
+          "value": "Adjustable 0.1–3.8mm"
+        },
+        {
+          "label": "Mount",
+          "value": "Gasket"
+        },
+        {
+          "label": "Case",
+          "value": "CNC Aluminium"
+        },
+        {
+          "label": "Connectivity",
+          "value": "Wired / 2.4G / BT"
+        }
+      ],
+      "images": [
+        "#22d3ee",
+        "#3b82f6",
+        "#a3f523"
+      ],
+      "accent": "#22d3ee",
+      "badges": [
+        "-9%",
+        "New"
+      ],
+      "newArrival": true
+    },
+    {
+      "id": "ac-03",
+      "slug": "sennheiser-hd-660s2",
+      "name": "SteelSeries Arctis Nova Pro",
+      "brand": "SteelSeries",
+      "category": "accessories",
+      "subCategory": "Headsets",
+      "price": 279,
+      "discount": 0,
+      "rating": 4.6,
+      "reviewCount": 512,
+      "stock": 33,
+      "tagline": "Hot-swap dual battery, active noise cancellation.",
+      "description": "A high-fidelity gaming headset with the GameDAC Gen 2, infinite power via swappable batteries, and a near-invisible retractable mic.",
+      "specs": [
+        {
+          "label": "Drivers",
+          "value": "40mm Neodymium"
+        },
+        {
+          "label": "DAC",
+          "value": "GameDAC Gen 2"
+        },
+        {
+          "label": "ANC",
+          "value": "Active Noise Cancellation"
+        },
+        {
+          "label": "Battery",
+          "value": "Infinite (hot-swap)"
+        },
+        {
+          "label": "Connectivity",
+          "value": "2.4G + Bluetooth"
+        }
+      ],
+      "images": [
+        "#8b5cf6",
+        "#ff2e88",
+        "#22d3ee"
+      ],
+      "accent": "#8b5cf6",
+      "badges": [
+        "Best Seller"
+      ],
+      "bestSeller": true
+    },
+    {
+      "id": "ac-04",
+      "slug": "lg-ultragear-oled-45",
+      "name": "LG UltraGear OLED 45\" 240Hz",
+      "brand": "LG",
+      "category": "accessories",
+      "subCategory": "Monitors",
+      "price": 1299,
+      "discount": 14,
+      "rating": 4.8,
+      "reviewCount": 207,
+      "stock": 16,
+      "tagline": "800R curve, 0.03ms, pure OLED black.",
+      "description": "An immersive 45\" 21:9 ultrawide OLED with a 240Hz refresh and 0.03ms response. Anti-glare coating and a stealth design that disappears into your setup.",
+      "specs": [
+        {
+          "label": "Panel",
+          "value": "45\" WOLED 21:9"
+        },
+        {
+          "label": "Resolution",
+          "value": "3440 × 1440"
+        },
+        {
+          "label": "Refresh",
+          "value": "240Hz"
+        },
+        {
+          "label": "Response",
+          "value": "0.03ms GtG"
+        },
+        {
+          "label": "Curve",
+          "value": "800R"
+        }
+      ],
+      "images": [
+        "#a3f523",
+        "#22d3ee",
+        "#8b5cf6"
+      ],
+      "accent": "#22d3ee",
+      "badges": [
+        "-14%"
+      ],
+      "featured": true
+    },
+    {
+      "id": "rg-01",
+      "slug": "nanoleaf-4d-lightstrip",
+      "name": "Nanoleaf 4D Screen Mirror + Lightstrip",
+      "brand": "Nanoleaf",
+      "category": "rgb-decor",
+      "subCategory": "RGB Lighting",
+      "price": 99,
+      "discount": 0,
+      "rating": 4.5,
+      "reviewCount": 421,
+      "stock": 120,
+      "tagline": "Real-time screen-matched ambient light.",
+      "description": "A camera reads your screen and casts matching colour onto the wall behind it. The setup-defining bias light, with full Matter and music-sync support.",
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Bias Lighting + Camera"
+        },
+        {
+          "label": "Length",
+          "value": "Up to 65\" displays"
+        },
+        {
+          "label": "Zones",
+          "value": "48 addressable"
+        },
+        {
+          "label": "Sync",
+          "value": "Screen + Music"
+        },
+        {
+          "label": "Ecosystem",
+          "value": "Matter / Apple Home"
+        }
+      ],
+      "images": [
+        "#ff2e88",
+        "#8b5cf6",
+        "#22d3ee"
+      ],
+      "accent": "#ff2e88",
+      "badges": [
+        "RGB",
+        "New"
+      ],
+      "featured": true,
+      "newArrival": true
+    },
+    {
+      "id": "rg-02",
+      "slug": "akko-monsgeek-screen",
+      "name": "AKKO Mini Pixel Display Companion",
+      "brand": "AKKO",
+      "category": "rgb-decor",
+      "subCategory": "Desk Decorations",
+      "price": 59,
+      "discount": 0,
+      "rating": 4.4,
+      "reviewCount": 88,
+      "stock": 64,
+      "tagline": "A tiny pixel screen for stats, GIFs & vibes.",
+      "description": "A pocket-sized AWTRIX-style LED matrix that shows CPU stats, the time, weather, or looping pixel art. The perfect desk-shelf companion.",
+      "specs": [
+        {
+          "label": "Display",
+          "value": "32×8 RGB Matrix"
+        },
+        {
+          "label": "Modes",
+          "value": "Stats / Clock / Pixel Art"
+        },
+        {
+          "label": "Connectivity",
+          "value": "Wi-Fi"
+        },
+        {
+          "label": "Mount",
+          "value": "Magnetic stand"
+        }
+      ],
+      "images": [
+        "#a3f523",
+        "#ff2e88",
+        "#22d3ee"
+      ],
+      "accent": "#a3f523",
+      "badges": [
+        "RGB"
+      ],
+      "newArrival": true
+    },
+    {
+      "id": "rg-03",
+      "slug": "gravastar-mercury-speaker",
+      "name": "GravaStar Mercury M2 Speaker",
+      "brand": "GravaStar",
+      "category": "rgb-decor",
+      "subCategory": "Desk Decorations",
+      "price": 169,
+      "discount": 7,
+      "rating": 4.6,
+      "reviewCount": 142,
+      "stock": 28,
+      "tagline": "A zinc-alloy mech sculpture that happens to play music.",
+      "description": "Part Bluetooth speaker, part desk sculpture. A die-cast articulated body with reactive RGB and a surprisingly punchy driver.",
+      "specs": [
+        {
+          "label": "Output",
+          "value": "20W"
+        },
+        {
+          "label": "Body",
+          "value": "Zinc-Alloy Cast"
+        },
+        {
+          "label": "RGB",
+          "value": "Music-reactive"
+        },
+        {
+          "label": "Battery",
+          "value": "15 hours"
+        },
+        {
+          "label": "Connectivity",
+          "value": "Bluetooth 5.3"
+        }
+      ],
+      "images": [
+        "#8b5cf6",
+        "#22d3ee",
+        "#ff2e88"
+      ],
+      "accent": "#8b5cf6",
+      "badges": [
+        "-7%"
+      ],
+      "bestSeller": true
+    },
+    {
+      "id": "rg-04",
+      "slug": "cable-matters-management-kit",
+      "name": "TechZone Stealth Cable Management Kit",
+      "brand": "TechZone",
+      "category": "rgb-decor",
+      "subCategory": "Cable Management",
+      "price": 39,
+      "discount": 0,
+      "rating": 4.7,
+      "reviewCount": 256,
+      "stock": 200,
+      "tagline": "Everything to make the back of your desk disappear.",
+      "description": "Magnetic channels, under-desk trays, braided sleeves, and reusable straps in a matte-black kit. The unglamorous upgrade every clean setup needs.",
+      "specs": [
+        {
+          "label": "Includes",
+          "value": "Trays, Channels, Sleeves"
+        },
+        {
+          "label": "Straps",
+          "value": "50× reusable"
+        },
+        {
+          "label": "Mount",
+          "value": "Adhesive + Magnetic"
+        },
+        {
+          "label": "Finish",
+          "value": "Matte Black"
+        }
+      ],
+      "images": [
+        "#161a22",
+        "#8b93a7",
+        "#a3f523"
+      ],
+      "accent": "#a3f523",
+      "badges": [
+        "Best Seller"
+      ],
+      "bestSeller": true
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "author": "Marcus T.",
+      "role": "Esports Coach",
+      "rating": 5,
+      "title": "Shipped flawless, cable management is art",
+      "body": "Ordered the Vortex build for our practice room. It arrived stress-tested and the loop is gorgeous. Frames are absurd. TechZone gets it.",
+      "product": "TechZone Vortex"
+    },
+    {
+      "id": "r2",
+      "author": "Lena K.",
+      "role": "3D Artist",
+      "rating": 5,
+      "title": "The M4 Max chews through renders",
+      "body": "Switched from a tower to the MBP 16 and barely notice a difference in Blender. The XDR display is unreal for grading.",
+      "product": "MacBook Pro 16\""
+    },
+    {
+      "id": "r3",
+      "author": "Devon R.",
+      "role": "Streamer",
+      "rating": 4,
+      "title": "Nanoleaf 4D made my background",
+      "body": "My chat noticed within a day. Screen-matched light behind the monitor looks twice as expensive as it was.",
+      "product": "Nanoleaf 4D"
+    },
+    {
+      "id": "r4",
+      "author": "Priya S.",
+      "role": "Software Engineer",
+      "rating": 5,
+      "title": "Keychron Q1 HE is endgame",
+      "body": "Rapid trigger for gaming, silent enough for standups. The aluminium deck has real heft. No notes.",
+      "product": "Keychron Q1 HE"
+    },
+    {
+      "id": "r5",
+      "author": "Tom A.",
+      "role": "Competitive FPS",
+      "rating": 5,
+      "title": "Superlight 2 — instant difference",
+      "body": "Came from a 80g mouse. Flicks feel weightless now. Battery genuinely lasts the week.",
+      "product": "G PRO X Superlight 2"
+    },
+    {
+      "id": "r6",
+      "author": "Yara M.",
+      "role": "Content Creator",
+      "rating": 5,
+      "title": "Best PC-buying experience, period",
+      "body": "Support helped me spec the Zephyrus over chat, it shipped next day. Felt like a boutique, not a big-box store.",
+      "product": "ROG Zephyrus G14"
+    }
+  ]
+}

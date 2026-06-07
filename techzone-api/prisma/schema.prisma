@@ -1,0 +1,111 @@
+// TechZone API — Prisma schema (SQLite).
+// Mirrors techzone-store/src/lib/types.ts. SQLite has no array/JSON columns, so
+// `specs`, `images`, `badges` are stored as JSON strings and (de)serialized at the
+// repository boundary (src/lib/serialize.ts) so the API returns the exact Product
+// JSON shape the frontend already expects.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// NB: SQLite has no native enums. Role and OrderStatus are stored as String and
+// validated at the app boundary (zod). Allowed values:
+//   Role:        ADMIN | CUSTOMER
+//   OrderStatus: PENDING | PAID | SHIPPED | DELIVERED | CANCELLED
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  name         String
+  role         String   @default("CUSTOMER")
+  createdAt    DateTime @default(now())
+  orders       Order[]
+}
+
+model Product {
+  id          String  @id @default(cuid())
+  slug        String  @unique
+  name        String
+  brand       String
+  category    String
+  subCategory String
+  price       Float
+  discount    Float   @default(0)
+  rating      Float   @default(0)
+  reviewCount Int     @default(0)
+  stock       Int     @default(0)
+  tagline     String
+  description String
+  // quick filterable specs (optional)
+  cpu     String?
+  gpu     String?
+  ram     String?
+  storage String?
+  // JSON-encoded columns (see serialize.ts)
+  specs  String // SpecItem[]  -> JSON string
+  images String // string[]     -> JSON string
+  badges String // string[]     -> JSON string
+  accent String
+  featured   Boolean @default(false)
+  bestSeller Boolean @default(false)
+  newArrival Boolean @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  reviews    Review[]
+  orderItems OrderItem[]
+}
+
+model Review {
+  id        String   @id @default(cuid())
+  productId String?
+  product   Product? @relation(fields: [productId], references: [id], onDelete: SetNull)
+  author    String
+  role      String
+  rating    Int
+  title     String
+  body      String
+  // human-readable product label from the original mock data (kept for the marquee)
+  productLabel String?
+  createdAt DateTime @default(now())
+}
+
+model Order {
+  id         String      @id @default(cuid())
+  userId     String?
+  user       User?       @relation(fields: [userId], references: [id], onDelete: SetNull)
+  // customer snapshot (guest checkout allowed)
+  fullName   String
+  email      String
+  address    String
+  city       String
+  zip        String
+  subtotal   Float
+  shipping   Float
+  tax        Float
+  discount   Float       @default(0)
+  total      Float
+  couponCode String?
+  status     String      @default("PAID")
+  createdAt  DateTime    @default(now())
+  items      OrderItem[]
+}
+
+model OrderItem {
+  id        String  @id @default(cuid())
+  orderId   String
+  order     Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  productId String?
+  product   Product? @relation(fields: [productId], references: [id], onDelete: SetNull)
+  // snapshots so historical orders survive product edits/deletes
+  name      String
+  unitPrice Float
+  qty       Int
+}

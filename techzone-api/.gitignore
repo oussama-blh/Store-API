@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+*.db
+*.db-journal
+prisma/dev.db
+prisma/migrations/
+
+# uploaded product images (keep the folder, ignore its contents)
+uploads/*
+!uploads/.gitkeep
