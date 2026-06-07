@@ -8,8 +8,10 @@
   },
   "scripts": {
     "dev": "tsx watch src/index.ts",
+    "postinstall": "prisma generate",
     "build": "tsc -p tsconfig.json",
     "start": "node dist/index.js",
+    "deploy:db": "prisma db push && tsx prisma/seed.ts",
     "lint": "tsc --noEmit",
     "db:push": "prisma db push",
     "db:seed": "tsx prisma/seed.ts",

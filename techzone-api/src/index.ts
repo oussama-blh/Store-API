@@ -12,11 +12,21 @@ import { UPLOAD_DIR } from './lib/uploads.js'
 
 const app = express()
 const PORT = Number(process.env.PORT) || 4000
+// One or more allowed origins (comma-separated), e.g.
+//   CLIENT_ORIGIN=https://techzone.vercel.app,https://techzone-git-main-you.vercel.app
 const CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || 'http://localhost:5173'
+const allowedOrigins = CLIENT_ORIGIN.split(',').map((o) => o.trim()).filter(Boolean)
+
+// Behind Railway/Render's HTTPS proxy: trust it so Secure cookies are allowed.
+app.set('trust proxy', 1)
 
 app.use(
   cors({
-    origin: CLIENT_ORIGIN,
+    origin(origin, callback) {
+      // allow non-browser clients (curl, health checks) that send no Origin
+      if (!origin || allowedOrigins.includes(origin)) return callback(null, true)
+      return callback(new Error(`Origin ${origin} not allowed by CORS`))
+    },
     credentials: true,
   }),
 )
